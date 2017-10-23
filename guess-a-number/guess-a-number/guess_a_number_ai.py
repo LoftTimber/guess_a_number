@@ -72,16 +72,10 @@ def check_answer(c_low,c_high,answer,tries,limit):
     while True:                        
         your_answer=input("Tell me higher, lower, or yes.")
         
-        if your_answer=='h' or your_answer=='higher':
-            
-            
-                
+        if your_answer=='h' or your_answer=='higher':            
             return 'h'
         
-        elif your_answer=='l' or your_answer=='lower':
-            
-                
-                
+        elif your_answer=='l' or your_answer=='lower':           
             return 'l'
         
         elif your_answer == 'y' or your_answer == 'yes':
@@ -162,20 +156,28 @@ def play():
                 c_low=answer+1
                 
             elif pos=='l':
+                
                 if answer==c_low:
                     real=True
+                    
                     while real:
                         print("Wait, that can not be right!")
                         thing=input("Are you sure that is right?")
                     
                         if thing=='y' or thing=='yes':
-                            print("good")
+                            print("Oh...")
+                            print("There must have been a mistake somewhere.")
+                            game_play=False
+                            return False
+                        
                         elif thing=='n' or thing=='no':
                             qu=input("Okay, so tell me yes if your number is "+str(answer)+", or tell me if it is higher?")
+                            
                             if qu=='y' or qu=='yes':
                                 print("Alright, I got it!")
                                 game_play=False
                                 return False
+                            
                             elif qu=='h' or qu=='high':
                                 c_low=answer+1
                                 real=False                              
@@ -185,6 +187,7 @@ def play():
                             
                         else:
                             print("Please tell me yes or no.")
+                            
                 else:
                     c_high=answer-1
                 
