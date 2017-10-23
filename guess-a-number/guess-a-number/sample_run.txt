@@ -1,0 +1,83 @@
+=============================
+Welcome to Guess a Number AI!
+=============================
+Insert a high limit.100
+Insert a low limit.1
+---
+Think of a number from 1 to 100 and I will try to guess it.
+Press enter when you are ready.
+I have 8 tries left.
+Is your number 50.
+Tell me higher, lower, or yes.h
+=====================
+I have 7 tries left.
+Is your number 75.
+Tell me higher, lower, or yes.h
+=====================
+I have 6 tries left.
+Is your number 88.
+Tell me higher, lower, or yes.l
+=====================
+I have 5 tries left.
+Is your number 81.
+Tell me higher, lower, or yes.h
+=====================
+I have 4 tries left.
+Is your number 84.
+Tell me higher, lower, or yes.l
+=====================
+I have 3 tries left.
+Is your number 82.
+Tell me higher, lower, or yes.h
+=====================
+I have 2 tries left.
+Well, the number has to be 83.
+Right?
+Tell me yes or no:y
+Alright, I got it!
+Would you like to play again? (y/n) y
+------------------------------------
+Insert a high limit.0
+May you uses a different number, please.
+Insert a high limit.1
+May you uses a different number, please.
+Insert a high limit.2
+May you uses a different number, please.
+Insert a high limit.50
+Insert a low limit.25
+---
+Think of a number from 25 to 50 and I will try to guess it.
+Press enter when you are ready.
+I have 7 tries left.
+Is your number 37.
+Tell me higher, lower, or yes.l
+=====================
+I have 6 tries left.
+Is your number 30.
+Tell me higher, lower, or yes.h
+=====================
+I have 5 tries left.
+Is your number 33.
+Tell me higher, lower, or yes.l
+=====================
+I have 4 tries left.
+Is your number 31.
+Tell me higher, lower, or yes.l
+=====================
+Wait, that can not be right!
+Are you sure that is right?n
+Okay, so tell me yes if your number is 31, or tell me if it is higher?h
+I have 3 tries left.
+Well, the number has to be 32.
+Right?
+Tell me yes or no:y
+Alright, I got it!
+Would you like to play again? (y/n) n
+------------------------------------
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@Thank you for playing!@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+This program was made by Shane.
+10/22/2017
